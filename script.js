@@ -10,8 +10,8 @@ var gridHeight;
 var gridWidth;
 var sideLen;
 var grid;
-var minSquares =250**2;
-var maxSquares = 250**2;
+var minSquares =75**2;
+var maxSquares = 75**2;
 
 
 //maze properties
@@ -54,7 +54,7 @@ function main() { // runs on webpage fully loaded
     //canvas prep
     c = document.getElementById("main");
     ctx = c.getContext("2d");
-    c.width = document.body.clientWidth/1.1;
+    c.width = document.body.clientWidth/1.01;
     c.height = Math.floor(document.body.clientWidth/2.5);
     //
     console.log(c.width,c.height);
